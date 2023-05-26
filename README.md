@@ -22,10 +22,21 @@ To use this library, follow these steps:
 
 The library consists of the following files:
 
-- main.py: This file contains the main script to analyze financial data and generate rankings based on the principles from "The Little Book that Still Beats the Market".
-- F_API.py: This file includes functions to interact with the financialmodelingprep.com API and download financial data.
-- F_SP500.py: This file provides functions to retrieve historical and current constituents of the S&P 500 index and mark stocks belonging to the index in the analyzed financial data.
+| File | Description | Status |
+| ----------- | ----------- | ----------- |
+| main.py | Main script for analyzing financial data | To update with new functions |
+| F_SP500.py | Script for retrieving historical constituents of the S&P 500 index | To test (note 1) |
+| F_API.py | Script for downloading financial data from financialmodelingprep.com API | Complete|
+| F_Analysis.py | Script for analyzing the financial performance of companies | Work in progress (note 2) |
+| F_Output.py | Script for printing the filtered, analyzed, and ranked companies | Work in progress (note 2)|
 
+---
+**NOTE**
+
+1. This was part of the initial commit "initialization". Other function ```F_Name.py``` will be developed and tested in the corresponding branches before being merged in the *main* branch.
+2. These are functions still be initiated.
+
+---
 ## Ranking Companies based on "The Little Book that Still Beats the Market"
 
 This library includes functionality to rank companies based on the principles outlined in the book "The Little Book that Still Beats the Market" by Joel Greenblatt. The ranking algorithm is implemented from scratch within this library, providing insights into company performance.
@@ -34,4 +45,27 @@ This library includes functionality to rank companies based on the principles ou
 
 ## Disclaimer
 
-This library is developed independently and is not affiliated with financialmodelingprep.com. The use of this library and any investment decisions made based on the analysis performed are the sole responsibility of the user. We take no responsibility for any risks or losses associated with the use of this library or investments made using the provided data.
+This library is developed independently and is not affiliated with financialmodelingprep.com nor with magicformula.com or other organizations. The use of this library and any investment decisions made based on the analysis performed are the sole responsibility of the user. We take no responsibility for any risks or losses associated with the use of this library or investments made using the provided data.
+
+## Contributing Guidelines
+
+### Commit Descriptions
+When making commits to the repository, please follow these guidelines for writing descriptive commit messages:
+
+- **feat**: Use this prefix for new features or enhancements to existing functionality.
+- **fix**: Use this prefix for bug fixes or resolving issues.
+- **docs**: Use this prefix for documentation updates or improvements.
+- **refactor** : Use this prefix for code refactoring or restructuring without changing functionality.
+- **test** : Use this prefix for adding or modifying test cases.
+Please provide a clear and concise description of the changes made in the commit message.
+
+### Branch Naming
+When creating branches, please use descriptive names that indicate the purpose or functionality of the branch. Some common branch naming conventions include:
+
+- *feature\<branch-name>*: Use this prefix for branches that add new features or enhancements.
+- *bugfix\<branch-name>*: Use this prefix for branches that fix bugs or resolve issues.
+- *refactor\<branch-name>*: Use this prefix for branches that involve code refactoring or restructuring.
+- *test\<branch-name>*: Use this prefix for branches that add or modify test cases.
+- *docs\<branch-name>*: Use this prefix for branches that involve documentation updates or improvements.
+- *chore\<branch-name>*: Use this prefix for branches that involve general maintenance or non-functional changes.
+Choose a branch name that clearly represents the purpose of the branch and provides context to other contributors.
