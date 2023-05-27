@@ -3,6 +3,10 @@ Value Investment based on Greenblatt's Magic Formula
 
 This library provides functionality to analyze financial data and rank companies based on the principles outlined in the book "The Little Book that Still Beats the Market" by Joel Greenblatt.
 
+## Disclaimer
+
+This library is developed independently and is not affiliated with financialmodelingprep.com nor with magicformula.com or other organizations. The use of this library and any investment decisions made based on the analysis performed are the sole responsibility of the user. We take no responsibility for any risks or losses associated with the use of this library or investments made using the provided data.
+
 ## Usage
 
 To use this library, follow these steps:
@@ -43,10 +47,6 @@ This library includes functionality to rank companies based on the principles ou
 
 > Reference: Greenblatt, J. (2010). The Little Book that Still Beats the Market. Wiley.
 
-## Disclaimer
-
-This library is developed independently and is not affiliated with financialmodelingprep.com nor with magicformula.com or other organizations. The use of this library and any investment decisions made based on the analysis performed are the sole responsibility of the user. We take no responsibility for any risks or losses associated with the use of this library or investments made using the provided data.
-
 ## Contributing Guidelines
 
 ### Commit Descriptions
@@ -62,10 +62,10 @@ Please provide a clear and concise description of the changes made in the commit
 ### Branch Naming
 When creating branches, please use descriptive names that indicate the purpose or functionality of the branch. Some common branch naming conventions include:
 
-- *feature\<branch-name>*: Use this prefix for branches that add new features or enhancements.
-- *bugfix\<branch-name>*: Use this prefix for branches that fix bugs or resolve issues.
-- *refactor\<branch-name>*: Use this prefix for branches that involve code refactoring or restructuring.
-- *test\<branch-name>*: Use this prefix for branches that add or modify test cases.
-- *docs\<branch-name>*: Use this prefix for branches that involve documentation updates or improvements.
-- *chore\<branch-name>*: Use this prefix for branches that involve general maintenance or non-functional changes.
+- *feature-<branch-name>*: Use this prefix for branches that add new features or enhancements.
+- *bugfix-<branch-name>*: Use this prefix for branches that fix bugs or resolve issues.
+- *refactor-<branch-name>*: Use this prefix for branches that involve code refactoring or restructuring.
+- *test-<branch-name>*: Use this prefix for branches that add or modify test cases.
+- *docs-<branch-name>*: Use this prefix for branches that involve documentation updates or improvements.
+- *chore-<branch-name>*: Use this prefix for branches that involve general maintenance or non-functional changes.
 Choose a branch name that clearly represents the purpose of the branch and provides context to other contributors.
