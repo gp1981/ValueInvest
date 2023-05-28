@@ -62,8 +62,8 @@ Please provide a clear and concise description of the changes made in the commit
 ### Branch Naming
 When creating branches, please use descriptive names that indicate the purpose or functionality of the branch. Some common branch naming conventions include:
 
-- *Feature*-*branch-name*: Use this prefix for branches that add new features or enhancements.
-- *Bugfix*-*branch-name*: Use this prefix for branches that fix bugs or resolve issues.
-- *Refactor*-*branch-name*: Use this prefix for branches that involve code refactoring 
-- *docs*-*branch-name*: Use this prefix for branches that involve documentation updates or improvements.
+- *Feature-*branch-name*: Use this prefix for branches that add new features or enhancements.
+- *Bugfix-*branch-name*: Use this prefix for branches that fix bugs or resolve issues.
+- *Refactor-*branch-name*: Use this prefix for branches that involve code refactoring 
+- *docs-*branch-name*: Use this prefix for branches that involve documentation updates or improvements.
 Choose a branch name that clearly represents the purpose of the branch and provides context to other contributors.
