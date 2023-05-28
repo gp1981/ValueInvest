@@ -14,10 +14,10 @@ To use this library, follow these steps:
 1. Get an API key from financialmodelingprep.com.
 2. Clone this repository to your local machine.
 3. Install the required dependencies by running `pip install -r requirements.txt`.
-4. Create a `.env` file in the root directory of the project and add the following line, replacing `<your-api-key>` with your actual API key:
+4. Create a `.env` file in the root directory of the project and add the following line, replacing `*your-api-key*` with your actual API key:
 
    ```plaintext
-   API_KEY=<your-api-key>
+   API_KEY=*your-api-key*
 
 5. Modify the code in main.py according to your requirements.
 6. Run the main.py script to analyze the financial data and generate rankings.
@@ -45,16 +45,16 @@ The library consists of the following files:
 
 This library includes functionality to rank companies based on the principles outlined in the book "The Little Book that Still Beats the Market" by Joel Greenblatt. The ranking algorithm is implemented from scratch within this library, providing insights into company performance.
 
-> Reference: Greenblatt, J. (2010). The Little Book that Still Beats the Market. Wiley.
+* Reference: Greenblatt, J. (2010). The Little Book that Still Beats the Market. Wiley.
 
 ## Contributing Guidelines
 
 ### Commit Descriptions
 When making commits to the repository, please follow these guidelines for writing descriptive commit messages:
 
-- **feat**: Use this prefix for new features or enhancements to existing functionality.
-- **fix**: Use this prefix for bug fixes or resolving issues.
-- **docs**: Use this prefix for documentation updates or improvements.
+- **Feat**: Use this prefix for new features or enhancements to existing functionality.
+- **Fix**: Use this prefix for bug fixes or resolving issues.
+- **Docs**: Use this prefix for documentation updates or improvements.
 - **refactor** : Use this prefix for code refactoring or restructuring without changing functionality.
 - **test** : Use this prefix for adding or modifying test cases.
 Please provide a clear and concise description of the changes made in the commit message.
@@ -62,10 +62,8 @@ Please provide a clear and concise description of the changes made in the commit
 ### Branch Naming
 When creating branches, please use descriptive names that indicate the purpose or functionality of the branch. Some common branch naming conventions include:
 
-- *feature-<branch-name>*: Use this prefix for branches that add new features or enhancements.
-- *bugfix-<branch-name>*: Use this prefix for branches that fix bugs or resolve issues.
-- *refactor-<branch-name>*: Use this prefix for branches that involve code refactoring or restructuring.
-- *test-<branch-name>*: Use this prefix for branches that add or modify test cases.
-- *docs-<branch-name>*: Use this prefix for branches that involve documentation updates or improvements.
-- *chore-<branch-name>*: Use this prefix for branches that involve general maintenance or non-functional changes.
+- *Feature*-*branch-name*: Use this prefix for branches that add new features or enhancements.
+- *Bugfix*-*branch-name*: Use this prefix for branches that fix bugs or resolve issues.
+- *Refactor*-*branch-name*: Use this prefix for branches that involve code refactoring 
+- *docs*-*branch-name*: Use this prefix for branches that involve documentation updates or improvements.
 Choose a branch name that clearly represents the purpose of the branch and provides context to other contributors.
